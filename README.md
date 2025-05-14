@@ -15,16 +15,16 @@ python main.py
 - 结果自动保存为top250.csv
 - 包含字段：排名、标题、评分、导演、年份、短评
 
-文件说明
+## 文件说明
 - main.py        # 启动脚本
 - douban_spider/ # Scrapy项目
 - top250.csv     # 爬取结果(运行后生成)
 
-注意事项
+## 注意事项
 
 请勿频繁请求，建议设置 DOWNLOAD_DELAY
 
 本爬虫仅用于学习用途
 
-示例截图
+### 示例截图
 ![img.png](img.png)
